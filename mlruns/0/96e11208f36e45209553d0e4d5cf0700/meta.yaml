@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/IDS706-Mini-Project-12-sp699/mlruns/0/96e11208f36e45209553d0e4d5cf0700/artifacts
+end_time: 1700519344947
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96e11208f36e45209553d0e4d5cf0700
+run_name: overjoyed-ram-280
+run_uuid: 96e11208f36e45209553d0e4d5cf0700
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700519340576
+status: 3
+tags: []
+user_id: codespace
