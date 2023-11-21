@@ -22,7 +22,7 @@ def model_training(X_train, y_train):
 
 def main():
     # Data loading
-    penguins = data_loading("/workspaces/IDS706-Mini-Project-12-sp699/penguins.csv")
+    penguins = data_loading("penguins.csv")
     
     # Label encoding
     penguins = label_encoding(penguins)

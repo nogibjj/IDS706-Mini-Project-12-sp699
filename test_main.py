@@ -4,17 +4,17 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 def test_data_loading():
-    penguins = data_loading("/workspaces/IDS706-Mini-Project-12-sp699/penguins.csv")
+    penguins = data_loading("penguins.csv")
     assert penguins is not None, "Data should not contain null values after preprocessing"
 
 def test_label_encoding():
-    penguins = data_loading("/workspaces/IDS706-Mini-Project-12-sp699/penguins.csv")
+    penguins = data_loading("penguins.csv")
     penguins_encoded = label_encoding(penguins)
     assert isinstance(penguins_encoded['island'][0], (int, np.integer)), "Island column should be encoded as integers"
     assert isinstance(penguins_encoded['sex'][0], (int, np.integer)), "Sex column should be encoded as integers"
 
 def test_model_training():
-    penguins = data_loading("/workspaces/IDS706-Mini-Project-12-sp699/penguins.csv")
+    penguins = data_loading("penguins.csv")
 
     # Apply label encoding to categorical features
     label_encoder = LabelEncoder()
