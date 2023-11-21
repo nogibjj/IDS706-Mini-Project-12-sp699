@@ -6,7 +6,7 @@ format:
 	black *.py
 
 lint:
-	ruff *.py
+	ruff *.py test_*.py
 
 test:
 	python -m pytest -vv --cov=main test_*.py
